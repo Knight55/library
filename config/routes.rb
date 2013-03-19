@@ -1,4 +1,7 @@
 Library::Application.routes.draw do
+
+  root to: 'static_pages#home'
+
   get "books/new"
 
   get "books/edit"
