@@ -1,4 +1,20 @@
 Library::Application.routes.draw do
+  get "books/new"
+
+  get "books/edit"
+
+  get "users/new"
+
+  get "users/edit"
+
+  get "users/forgotten_password"
+
+  get "static_pages/home"
+
+  get "static_pages/about"
+
+  get "static_pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
