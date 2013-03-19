@@ -14,6 +14,6 @@ class UsersController < ApplicationController
   def forgotten_password
   end
 
-  def password_sen
+  def password_send
   end
 end
